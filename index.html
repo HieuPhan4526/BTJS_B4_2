@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+    <!-- BS 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="w-50">
+          <!-- Số nguyên tăng dần -->
+          <h2>Số Nguyên tăng dần</h2>
+            <form>
+                <div class="form-group">
+                  <label for="">Số nguyên 1</label>
+                  <input type="number" class="form-control" id="soNguyen1">
+                </div>
+                <div class="form-group">
+                  <label for="">Số nguyên 2</label>
+                  <input type="number" class="form-control" id="soNguyen2">
+                </div>
+                <div class="form-group">
+                    <label for="">Số nguyên 3</label>
+                    <input type="number" class="form-control" id="soNguyen3">
+                  </div>
+                <button onclick="giaTriTangDan()" type="button" class="btn btn-primary">sắp xếp</button>
+                <p id="num" class="alert alert-primary"></p>
+              </form>
+
+              <!-- Lời chào hỏi -->
+            <h2>Lời chào hỏi</h2>
+
+              <form class="my-5">
+                 <div class="form-group">
+                    <label for="">Thành viên trong gia đình</label>
+                    <select class="form-control" id="selectPercent">
+                      <option>--Chọn thành viên--</option>
+                      <option value="Bố">Bố</option>
+                      <option value="Mẹ">Mẹ</option>
+                      <option value="Anh">Anh</option>
+                      <option value="Em Gái">Em Gái</option>
+                    </select>
+                  </div>
+                <button type="button" class="btn btn-danger" id="btn">Lời chào
+
+                </button>
+                <p id="Hello" class="alert alert-secondary"></p>
+            </form>
+
+            <!-- Số nguyên (chẵn , lẻ)-->
+            <h2>Số Nguyên chẵn lẻ</h2>
+            <form>
+              <div class="form-group">
+                <label for="">Số nguyên 1</label>
+                <input type="number" class="form-control" id="soMot">
+              </div>
+              <div class="form-group">
+                <label for="">Số nguyên 2</label>
+                <input type="number" class="form-control" id="soHai">
+              </div>
+              <div class="form-group">
+                  <label for="">Số nguyên 3</label>
+                  <input type="number" class="form-control" id="soBa">
+                </div>
+              <button onclick="chanLe()" type="button" class="btn btn-primary">Đếm</button>
+              <p id="ketQua" class="alert alert-primary"></p>
+            </form>
+
+            <!-- Hình học -->
+            <h2>Hình học</h2>
+            <form>
+              <div class="form-group">
+                <label for="">cạnh 1</label>
+                <input type="number" class="form-control" id="canhTamGiac1">
+              </div>
+              <div class="form-group">
+                <label for="">cạnh 2</label>
+                <input type="number" class="form-control" id="canhTamGiac2">
+              </div>
+              <div class="form-group">
+                  <label for="">cạnh 3</label>
+                  <input type="number" class="form-control" id="canhTamGiac3">
+                </div>
+              <button onclick="xetTamGiac()" type="button" class="btn btn-primary">Tính</button>
+              <p id="hinhHoc" class="alert alert-primary"></p>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- BS 4.6 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+        <!-- <script src="./js/B1.js"></script> -->
+        <!-- <script src="./js/B2.js"></script> -->
+        <!-- <script src="./js/B3.js"></script> -->
+        <script src="./js/B4.js"></script>
+
+</body>
+
+</html>
